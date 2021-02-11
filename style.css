@@ -1223,8 +1223,8 @@ contact
   margin-bottom: 28px;
 }
 
-#contact-form .form input,
-#contact-form .form textarea {
+#contact fieldset .form input,
+#contact fieldset .form textarea {
   color: #777;
   font-size: 14px;
   border: 1px solid #eee;
@@ -1240,13 +1240,13 @@ contact
   margin-bottom: 30px;
 }
 
-.form textarea {
+#contact .form fieldset textarea {
   height: 150px;
   resize: none;
   padding: 20px;
 }
 
-.form fieldset .form-control:focus {
+#contact .form fieldset .form-control:focus {
   color: #1e1e1e;
   border-color: #90e1d7;
   box-shadow: 0 0 0 0.1rem #90e1d7;
