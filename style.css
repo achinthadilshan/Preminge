@@ -1199,7 +1199,7 @@ contact
   margin-bottom: 28px;
 }
 
-.contact-form input,
+/* .contact-form input,
 .contact-form textarea {
   color: #777;
   font-size: 14px;
@@ -1226,7 +1226,7 @@ contact
   color: #1e1e1e;
   border-color: #90e1d7;
   box-shadow: 0 0 0 0.1rem #90e1d7;
-}
+} */
 
 .contact-form input#form-submit {
   outline: none;
