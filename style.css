@@ -430,30 +430,6 @@ a.main-button:hover {
   background-color: #2A9D8F;
 }
 
-.contact-form input.main-button {
-  outline: none;
-  border: none;
-  cursor: pointer;
-  font-size: 13px;
-  width: auto;
-  height: auto;
-  border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #2A9D8F;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.contact-form input.main-button:hover {
-  transform: translateY(-.1rem);
-}
-
-
 /* 
 ---------------------------------------------
 header
@@ -1250,6 +1226,29 @@ contact
   color: #1e1e1e;
   border-color: #90e1d7;
   box-shadow: 0 0 0 0.1rem #90e1d7;
+}
+
+.contact-form input.main-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  padding: 12px 20px;
+  background-color: #2A9D8F;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.contact-form input.main-button:hover {
+  transform: translateY(-.1rem);
 }
 
 /* 
