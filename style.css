@@ -430,7 +430,7 @@ a.main-button:hover {
   background-color: #2A9D8F;
 }
 
-#contact-form .form input.main-button {
+#contact fieldset input.main-button {
   outline: none;
   border: none;
   cursor: pointer;
@@ -449,7 +449,7 @@ a.main-button:hover {
   transition: all 0.3s ease 0s;
 }
 
-#contact-form .form input.main-button:hover {
+#contact fieldset input.main-button:hover {
   transform: translateY(-.1rem);
 }
 
@@ -1223,8 +1223,8 @@ contact
   margin-bottom: 28px;
 }
 
-#contact fieldset .form input,
-#contact fieldset .form textarea {
+#contact fieldset input,
+#contact fieldset textarea {
   color: #777;
   font-size: 14px;
   border: 1px solid #eee;
@@ -1240,13 +1240,13 @@ contact
   margin-bottom: 30px;
 }
 
-#contact .form fieldset textarea {
+#contact fieldset textarea {
   height: 150px;
   resize: none;
   padding: 20px;
 }
 
-#contact .form fieldset .form-control:focus {
+#contact fieldset .form-control:focus {
   color: #1e1e1e;
   border-color: #90e1d7;
   box-shadow: 0 0 0 0.1rem #90e1d7;
