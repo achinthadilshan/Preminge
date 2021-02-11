@@ -1228,7 +1228,7 @@ contact
   box-shadow: 0 0 0 0.1rem #90e1d7;
 }
 
-.contact-form input.main-button {
+.contact-form input#form-submit {
   outline: none;
   border: none;
   cursor: pointer;
@@ -1247,7 +1247,7 @@ contact
   transition: all 0.3s ease 0s;
 }
 
-.contact-form input.main-button:hover {
+.contact-form input#form-submit:hover {
   transform: translateY(-.1rem);
 }
 
