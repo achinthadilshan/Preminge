@@ -3,7 +3,7 @@
 	"use strict";
 
 	$('input[type=button]').val('SEND MESSAGE');
-
+	
 	// Window Resize Mobile Menu Fix
 	mobileNav();
 
